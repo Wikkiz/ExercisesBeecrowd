@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		double L1;
+		double L2;	
+		
+		System.out.printf("Digite as medidas do terreno aqui %n %.1f e %.1f", L1, L2);			
+		Scanner sc = new Scanner (System.in);
+		
+		double L1;
+		double L2;
+				
+		L1 = sc.nextDouble();
+		L2 = sc.nextDouble();
+		
+		
+		
+		
+		
+		
+		sc.close();
+	}
+
+}

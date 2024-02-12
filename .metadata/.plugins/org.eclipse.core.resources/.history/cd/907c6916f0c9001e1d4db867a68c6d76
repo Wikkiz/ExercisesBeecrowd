@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		double sal = sc.nextDouble();
+		double novSal;
+		double reajuste;
+	
+		if (sal <= 400.00) {
+			reajuste = sal * 0.15;
+			novSal = reajuste + sal;
+            System.out.printf("Novo salario: %.2f", novSal); 
+            System.out.printf("%nReajuste ganho: %.2f", reajuste); 
+        } else { 
+        	if (sal > 400.01 || sal < 800.00) {
+                System.out.println("Sao Multiplos"); 
+            } else
+            System.out.println("Nao sao Multiplos");
+        }
+		sc.close();
+	}
+
+}

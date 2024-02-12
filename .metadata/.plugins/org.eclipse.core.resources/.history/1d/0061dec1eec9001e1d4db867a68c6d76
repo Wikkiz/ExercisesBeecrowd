@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		double sal = sc.nextDouble();
+		double novSal;
+							
+			switch (sal) {
+			case 400 <= 0:
+				novSal = sal* 0.15 ;
+			break;
+		
+			default:
+				novSal = 0;
+			}			
+			
+		System.out.printf("Total: R$ %.2f%n", preco);
+					
+		sc.close();
+	}
+
+}

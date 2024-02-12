@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+
+		int A, B;
+		System.out.printf("Insira A:");
+		A =sc.nextInt();
+		System.out.printf("Insira B:");
+		B =sc.nextInt();
+		int x = A+B;
+		System.out.printf("Adotando X=A+B, X corresponde a: %d", x);
+		x =sc.nextInt();
+				
+		
+		sc.close();
+	}
+
+}

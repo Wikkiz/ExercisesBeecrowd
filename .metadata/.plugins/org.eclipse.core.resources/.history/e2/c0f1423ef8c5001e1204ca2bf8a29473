@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+				
+		Scanner sc = new Scanner (System.in);
+		
+		double Largura = sc.nextDouble();
+		double Comprimento = sc.nextDouble();
+		double MetroQuadrado = sc.nextDouble();
+		
+		double area = Largura * Comprimento;
+		double preco = area * MetroQuadrado;
+		
+		System.out.println("Área = " + area);
+		System.out.println("Preço = " + preco);
+		sc.close();
+	}
+
+}
